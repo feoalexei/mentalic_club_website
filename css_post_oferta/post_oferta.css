@@ -1,0 +1,122 @@
+a {
+    text-decoration: none;
+}
+
+/*------------ Header ------------*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        320deg,     
+        rgba(35, 17, 82, 0.7) 30%,
+        rgba(26, 43, 148, 0.8) 60%,
+        rgba(15, 44, 98, 0.9) 90%),
+        url(../assets/bg_circle.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.mentalic-logo {
+    width: 8%;
+    min-width: 60px;
+}
+
+.mentalic-title {
+    font-family: Nunito;
+}
+
+.container {
+    width: 1000px;
+    max-width: 1000px;
+    padding: 0;
+} 
+
+.confirm__window {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.confirm__img {
+    width: 20%;
+    min-width: 60px;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(67, 160, 247);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover { 
+    background-color: rgb(224, 136, 36);
+    border-color:rgb(67, 160, 247);
+}
+
+.btn:focus {
+    outline: none !important;
+  }
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/*------------ >= LG @media(max-width: 992px) ------------*/
+
+@media (max-width: 992px) {
+
+}
+
+/*------------ >= LG @media(max-width: 892px) ------------*/
+
+@media (max-width: 892px) {
+
+}
+
+
+/*------------ >= MD @media(max-width: 768px) ------------*/
+@media (max-width: 768px) {
+    .confirm__window {
+        width: 80%;
+    }
+}
+
+/*------------ >= SM @media(max-width: 576px) ------------*/
+@media (max-width: 576px) {
+    .confirm__window {
+        width: 90%;
+    }
+    .confirm__img {
+        width: 25%;
+        margin-top: 1rem;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+/*------------ >= SM @media(max-width: 360px) ------------*/
+@media (max-width: 360px) {
+    .confirm__window {
+        width: 100%;
+    }
+    .confirm__img {
+        width: 20%;
+    }
+}    
+
+
+

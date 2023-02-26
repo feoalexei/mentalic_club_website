@@ -1,0 +1,31 @@
+.btn {
+    border: none;
+    // background-color: $color-blue-light;
+    background-color: $color-orange-dark;
+    color: #fff;
+}
+
+.btn-darker {
+    border: none;
+    background-color: $color-blue-dark;
+    color: #fff;
+}
+
+.btn:hover { 
+    // background-color: $color-orange-dark;
+    background-color: $color-blue-light;
+    color: #fff;
+    border-color:$color-orange-dark;
+}
+
+.btn-darker:hover {
+    background-color: $color-blue;
+}
+
+.btn:focus {
+    outline: none !important;
+  }
+
+.btn:active {
+    transform: scale(0.95);
+}

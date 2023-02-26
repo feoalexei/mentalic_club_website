@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(90, 137, 220);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------ Header ------------*/
+.mentalic-logo {
+    width: 8%;
+    min-width: 60px;
+}
+
+.mentalic-title {
+    font-family: Nunito;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0;
+
+} 
+
+/*------------ Offerta ------------*/
+.offerta__main {
+    padding: 3rem 8rem;
+    border-radius: 5px;
+    box-shadow: 6px 7px 8px 0px rgba(12,22,102,0.55);
+    -webkit-box-shadow: 6px 7px 8px 0px rgba(12,22,102,0.55);
+    -moz-box-shadow: 6px 7px 8px 0px rgba(12,22,102,0.55);
+}
+
+.offerta p, 
+.offerta li { 
+    text-indent: 35px;
+    text-align: justify; 
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-indent: 55px;
+}
+
+.prices {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*------------ Agreement------------*/
+.agreement {
+    background-color: rgb(41, 82, 152);
+}
+
+.agreement p {
+    margin: 0;
+}
+
+.form__group p {
+    margin-bottom: 1rem;
+}
+
+.agreement__content {
+    flex-direction: row;
+}
+
+.agreement .bi-check2-square {
+    margin-bottom: 4px;
+}
+
+.agreement__content:hover .bi {
+    color: rgb(240, 164, 78);
+}
+
+.form__btn {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.submit__btn,
+.add__btn {
+    border: 2px solid rgb(38, 33, 117);
+    color: rgb(38, 33, 117);
+}
+
+.btn:hover { 
+    background-color: rgb(240, 164, 78); 
+    color: rgb(13, 8, 79);
+    border-color: rgb(240, 164, 78); 
+}
+
+.btn:focus {
+    outline: none !important;
+  }
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/*------------ Form------------*/
+.agreement__form {
+    background-color:rgb(192, 212, 248);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.form__group {
+    position: relative;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+/*------------ >= LG @media(max-width: 992px) ------------*/
+
+@media (max-width: 992px) {
+    .offerta__main {
+        padding: 3rem 5rem;
+    }
+    .prices {
+        width: 80%;
+    } 
+}
+
+/*------------ >= LG @media(max-width: 892px) ------------*/
+
+@media (max-width: 892px) {
+    .offerta__main {
+        padding: 3rem 3rem;
+    }
+
+    .prices {
+        width: 85%;
+    } 
+}
+
+
+/*------------ >= MD @media(max-width: 768px) ------------*/
+@media (max-width: 768px) {
+    .offerta__main {
+        padding: 3rem 2rem;
+    }
+    .prices {
+        width: 100%;
+    } 
+
+    .agreement__form {
+        width: 100%;
+    }
+    .agreement__content {
+        flex-direction: column;
+    }
+}
+
+/*------------ >= SM @media(max-width: 576px) ------------*/
+@media (max-width: 576px) {
+    .offerta__main {
+        padding: 3rem 1rem;
+    }
+    .offerta p { 
+        text-indent: 25px;
+    }
+    .offerta li {
+        text-indent: 35px;
+    }
+    
+}
+
+/*------------ >= SM @media(max-width: 360px) ------------*/
+@media (max-width: 360px) {
+    .offerta__main {
+        padding: 3rem 0.75rem;
+    }    
+}
+

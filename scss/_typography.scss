@@ -1,0 +1,149 @@
+p {
+    margin-bottom: 0;
+    line-height: $line-height-base;
+}
+
+
+.header-title {
+    // font-family: 'Pacifico', cursive;
+    font-family: 'Bad Script', cursive;
+    font-size: 6rem;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgba(15,12,84,0.8);
+}
+
+.header-subtitle__1 {
+    display: none;
+}
+
+.title-orange {
+    color: $color-orange;
+}
+
+.title-orange-dark {
+    color: $color-orange-dark;
+}
+
+.title-blue-light {
+    color: $color-blue-light;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #002a40;
+    margin-bottom: 3rem;
+}
+
+#basis .section-title {
+    color: $color-orange;
+}
+
+.about-title,
+.author-name {
+    color: $color-blue;
+    font-size: 2.25rem;
+}
+
+.variants-title {
+    color: $color-blue;
+}
+
+/*----------- min-width: 1200px ---------*/
+@media (min-width: 1196px) {
+    .header-subtitle__1 {
+        display: block;
+    }
+    .header-subtitle__2 {
+        display: none;
+    }
+}
+
+
+/*----------- max-width: 992px ---------*/
+@media (max-width: 992px) {
+    .header-title {
+        font-size: 4rem;
+    }
+    .section-title {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/*----------- max-width: 768px ---------*/
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 3.25rem;
+    }
+    .section-title {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/*----------- max-width: 576px ---------*/
+@media (max-width: 576px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
+    .section-title,
+    .module-title {
+        font-size: 1.25rem;
+    }
+
+    .inside-title {
+        font-size: 1.5rem;
+    }
+
+    .about-title,
+    .author-name {
+        font-size: 1.75rem;
+    }
+}
+
+/*----------- max-width: 350px ---------*/
+@media (max-width: 350px) {
+    .header-title {
+        font-size: 2rem;
+    }   
+    .header-subtitle {
+        display: none;
+    }
+}    
+
+
+.mentalic-title {
+    font-family: 'Nunito', sans-serif;
+}
+
+.section-text {
+    font-size: 1rem;
+}
+
+.bi {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.bi-arrow-right-circle-fill {
+    color: rgb(211, 54, 54);
+}
+
+.bi-check-circle-fill {
+    color: $success;
+}
+
+.bi-arrow-right-circle-fill::before,
+.bi-check-circle-fill::before {
+    vertical-align: top;
+}
+
+.bi-meta {
+    margin-top: -17px;
+}
+
+.author .bi {
+    color: $color-blue;
+}
+
